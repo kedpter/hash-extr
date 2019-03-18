@@ -33,11 +33,11 @@ extern "C" {
 
 #if defined (_POSIX)
 
-#if defined (__unix__)
-#define SZIP_TO_JOHN_PATH      "./cvttools/posix/7z2hashcat_centos7"                              //    7ZIP
-#elif defined (__APPLE__)
+// #if defined (__unix__)
+// #define SZIP_TO_JOHN_PATH      "./cvttools/posix/7z2hashcat_centos7"                              //    7ZIP
+// #elif defined (__APPLE__)
 #define SZIP_TO_JOHN_PATH      "./cvttools/posix/7z2hashcat.pl"                              //    7ZIP
-#endif
+// #endif
 
 #define CAP_TO_HCCPAX_PATH     "./cvttools/posix/hashcat-utils-master/src/cap2hccapx.bin" //    WPA
 #define RAR_TO_JOHN_PATH       "./cvttools/posix/JohnTheRipper/run/rar2john"              //    RAR

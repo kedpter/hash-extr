@@ -12,6 +12,7 @@ A command-line tool to extract hashes from encrypted files for hashcat.
 For more details, check `--help`
 
 Supported file types:
+- :white_check_mark:wpa
 - :white_check_mark:office
 - :white_check_mark:pdf
 - :white_check_mark:szip

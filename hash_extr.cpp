@@ -31,7 +31,7 @@ static void print_usage ()
 {
   /* printf ("Usage: hash_extr -t task-type -f orig-file -o hash-file --hash-type\n"); */
 
-  printf ("Usage: hash_extr -s op file...[MAX:256] [options] \n\n" "support: office pdf szip rar pkzip \n " "\n" "-s select operation: \n " "\t0      [default mode]extract hash, print to the console\n" "\t1      [single mode]extract from single file, then rename[-o]\n"
+  printf ("Usage: hash_extr -s op file...[MAX:256] [options] \n\n" "support: wpa office pdf szip rar pkzip \n " "\n" "-s select operation: \n " "\t0      [default mode]extract hash, print to console\n" "\t1      [single mode]extract from single file, then rename[-o]\n"
           // "1 extract tbc_files to [hchash | ihchash] file"
           // "1 extract single type[same version] of files \n "
           // "2 extract mixed types of files \n "
@@ -507,6 +507,7 @@ static int htr_session_execute (htr_ctx_t * htr_ctx)
 
 int main (int argc, char **argv)
 {
+  printf("hello world\n");
   htr_ctx_t htr_ctx;
 
   // init struct
