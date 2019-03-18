@@ -1,0 +1,7 @@
+.tags*
+.DS_Store
+*.o
+*.gch
+
+hash_extr
+hash_extr.exe
